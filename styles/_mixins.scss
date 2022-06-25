@@ -1,0 +1,14 @@
+
+// create break points mixins
+@mixin min_lg{
+    @media(min-width:#{$lg-min}){
+        @content;
+    }
+}
+
+@mixin max_md{
+    @media (max-width:#{$md}){
+        @content;
+    }
+}
+
